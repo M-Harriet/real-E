@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="./app/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./app/css/style.css">
+</head>
+<body>
+    <!--start of navbar-->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./app/assets/download-removebg-preview (34).png" alt="" height="50px" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light mx-5" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light mx-5" aria-current="page" href="#">DEMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light mx-5" aria-current="page" href="#">PROPERTY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light mx-5" aria-current="page" href="#">CONTACTS</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+      
+    <!--end of navbar-->
+    <!--start of hero-->
+    <section class="object-fit-cover">
+      <div class="card text-bg-dark">
+        <img src="./app/assets/villa-4501999_1280.jpg" class="card-img object-fit-cover" alt="..." height="600px">
+        <div class="card-img-overlay text-center">
+          <h2 class="card-title pt-5 diplay-5">Find Your Dream Home</h2>
+          <h3 class="card-text pt-5 diplay-3">We are recognized for exceeding client expectations and delivering great <br> results through dedication, ease of process, and extraordinary </h3>
+          <button type="button" class="btn btn-primary">Show More</button>
+
+        </div>
+      </div>
+    </section>
+    <!--end of hero-->
+    <!--start of grid-->
+    <section class="pt-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 object-fit-cover">
+            <img src="./app/assets/home-1.jpg" alt="" height="600px" width="600px">
+          </div>
+          
+          <div class="col-md-6 text-light pt-5">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum odit neque maxime ratione, et rerum doloremque quis perferendis dolorem dignissimos harum amet non iusto. Itaque nulla incidunt iure aspernatur expedita.
+            Dolorum accusantium impedit modi rerum beatae exercitationem voluptate quas nihil a harum expedita recusandae consequuntur ea officia repudiandae, numquam ex necessitatibus libero nostrum perferendis, sint minus et magni. Similique, nulla?
+            Nesciunt voluptates consequuntur provident eos eveniet? Minus voluptate quod doloremque consectetur dignissimos consequatur vero officia saepe, incidunt molestias id earum culpa rem dolores! Est veniam quo incidunt sapiente, illum libero?
+            Dolor quam voluptatibus atque soluta ipsa? Ab amet non molestias! Reiciendis error doloremque harum, laudantium quasi similique dolorum sed iure quis nobis aliquam impedit eveniet nam debitis rerum voluptatum! Quod.</p>
+            <button type="button" class="btn btn-outline-primary">Read More</button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of grid-->
+    <!--start of cards-->
+    <section class="text-light">
+      <div class="container">
+        <div class="row">
+          <h1 class="text-center">OUR PROPERTIES</h1>
+        </div>
+        <!-- Inventory - START -->
+      
+      <div class="row heading">
+          <h2 class="sub-heading text-center diplay-5">Appartments</h2>
+      </div>
+      
+      <div class="container-fluid" id="inventory">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="card">
+                       
+                          <img class="img-fluid object-fit-cover" src="./app/assets/apartment in greater nevada.jpeg" alt="Card image cap">
+                          <button class="btn view-btn">Nevada</button>
+                          <div class="ribbon"><span>For Sale</span></div>
+                       
+                      
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid object-fit-cover" src="./app/assets/house-409451_1280.jpg" alt="Card image cap">
+                      <button class="btn view-btn">Ambiance</button>
+                      <div class="ribbon"><span>For Sale</span></div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid object-fit-cover" src="./app/assets/interior3-525x328.webp" alt="Card image cap">
+                      <button class="btn view-btn">Condo Vs</button>
+                      <div class="ribbon"><span>Rentals</span></div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury 6 bed mansion in reno.webp" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">Downers</button>               
+                      <div class="ribbon">
+                          <span>For Sale</span>
+                      </div>
+                  </div>
+              </div>
+      
+          </div>
+          <div class="row mt-5">
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury-rent.jpg" alt="Card image cap">
+                      <button class="btn view-btn">La View</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury-home-2409518_1280.jpg" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">Lavington</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/mordern-luxury.jpg" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">mordern-luxury</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/new apartmen.jpeg" alt="Card image cap">
+                      <button class="btn  view-btn">New-Apartment</button>               
+                  </div>
+              </div>
+      
+          </div>
+      
+      
+      
+      </div>
+      
+      <!-- Inventory - END -->
+      </div>
+    </section>
+    <!--end of cards-->
+    <!--start of card-2-->
+    <section class="text-light">
+      <div class="container">
+        <div class="row">
+          
+        </div>
+        <!-- Inventory - START -->
+      
+      <div class="row heading">
+          <h2 class="sub-heading text-center pt-5 diplay-3">Villas</h2>
+      </div>
+      
+      <div class="container-fluid" id="inventory">
+          <div class="row">
+              <div class="col-md-3">
+                  <div class="card">
+                       
+                          <img class="img-fluid object-fit-cover" src="./app/assets/apartment in greater nevada.jpeg" alt="Card image cap">
+                          <button class="btn view-btn">Nevada</button>
+                          <div class="ribbon"><span>For Sale</span></div>
+                       
+                      
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid object-fit-cover" src="./app/assets/house-409451_1280.jpg" alt="Card image cap">
+                      <button class="btn view-btn">Ambiance</button>
+                      <div class="ribbon"><span>For Sale</span></div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid object-fit-cover" src="./app/assets/interior3-525x328.webp" alt="Card image cap">
+                      <button class="btn view-btn">Condo Vs</button>
+                      <div class="ribbon"><span>Rentals</span></div>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury 6 bed mansion in reno.webp" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">Downers</button>               
+                      <div class="ribbon">
+                          <span>For Sale</span>
+                      </div>
+                  </div>
+              </div>
+      
+          </div>
+          <div class="row mt-5">
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury-rent.jpg" alt="Card image cap">
+                      <button class="btn view-btn">La View</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/luxury-home-2409518_1280.jpg" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">Lavington</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/mordern-luxury.jpg" alt="Card image cap">
+                      <button class="btn btn-danger view-btn">mordern-luxury</button>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-fluid" src="./app/assets/new apartmen.jpeg" alt="Card image cap">
+                      <button class="btn  view-btn">New-Apartment</button>               
+                  </div>
+              </div>
+      
+          </div>
+      
+      
+      
+      </div>
+      
+      <!-- Inventory - END -->
+      </div>
+    </section>
+    <!--end of card-2-->
+    <!--start of footer-->
+    <section>
+      <div class="footer-bottom-area bg-dark-light section-padding-sm pt-5">
+        <div class="container">
+            <div class="row widgets footer-widgets">
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-widget widget-about">
+                        <h5 class="widget-title">About Us</h5>
+                        <img src="images/others/about-widget-image.jpg" alt="about widget image">
+                        <p>We are a team of designers and developers that create high quality <a href="www.dkstudio.in">Readmore...</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-widget widget-quick-links">
+                        <h5 class="widget-title">My Account</h5>
+                        <ul>
+                            <li><a href="#">Sitemap</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Your Account</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-widget widget-quick-links">
+                        <h5 class="widget-title">Customer Service</h5>
+                        <ul>
+                            <li><a href="#">Shipping Policy</a></li>
+                            <li><a href="#">Compensation First</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Return Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="single-widget widget-contact">
+                        <h5 class="widget-title">Contact Us</h5>
+                        <ul>
+                            <li class="address">
+                                <span class="icon"><i class="fa fa-map-marker"></i></span>
+                                <p>Address : No 100 Baria Sreet 100/2  Jaipur City, IN.</p>
+                            </li>
+                            <li class="phone">
+                                <span class="icon"><i class="fa fa-phone"></i></span>
+                                <p><a href="#">+254 7568 54 3012</a></p>
+                            </li>
+                            <li class="fax">
+                                <span class="icon"><i class="fa fa-fax"></i></span>
+                                <p><a href="#">+254 7568 54 3012</a></p>
+                            </li>
+                            <li class="email">
+                                <span class="icon"><i class="fa fa-envelope-o"></i></span>
+                                <p><a href="#">harriet@gmail.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--end of footer-->
+    <script src="./app/js/bootstrap.bundle.js"></script>
+</body>
+</html>
